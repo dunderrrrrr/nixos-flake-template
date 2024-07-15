@@ -1,0 +1,14 @@
+[tool.poetry]
+authors = ["dunderrrrrr <emil.bjorkroth@gmail.com>"]
+description = ""
+name = "with-poetry"
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
